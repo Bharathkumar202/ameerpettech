@@ -1,0 +1,26 @@
+img{
+    width: 150px;
+    height: 150px;
+    
+    box-sizing: border-box;
+}
+div{
+    
+    display: flex;
+    gap: 100px;
+}
+@media (max-width:765px) {
+
+    div{
+        flex-direction: row;
+        width: fit-content;
+        border: 2px solid black;
+        margin-right: 0%;
+
+    }
+    
+    marquee{
+        transition-delay: 0s;
+        border: 2px solid black;
+    }
+}
